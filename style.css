@@ -1,0 +1,46 @@
+*, *:before, *:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container__n{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nvc__right{
+    width: 70%;
+    padding: 20px;
+}
+.nvc__left{
+    width: 30%;
+    padding: 20px;
+}
+.nvc__title{
+    padding: 20px 0;
+    text-align: center;
+}
+.nvc__text{
+    padding: 10px;
+}
+.nvc__text b{
+    display: block;
+    font-size: 18px;
+}
+ ul{
+    margin-left: 30px;
+}
+.link-block{width:100%; position:relative;margin-bottom:15px;border:1px solid #cbd5e0;border-radius:3px;cursor:pointer}.link-block a{display:block;text-decoration:none;padding:10px 45px 10px 50px;color:#222}.link-block:hover{background:#cbd5e0}.link-block:hover a{color:#222;text-decoration:none}.link-block:before{content:'';position:absolute;left:15px;top:0;bottom:0;margin:auto 0;width:30px;height:30px}.link-block:after{content:'';position:absolute;right:15px;top:0;bottom:0;margin:auto 0;width:20px;height:20px}.link-block--word:before{background:url("https://rosguard.gov.ru/uploads/2020/02/pdf.png") no-repeat;background-position:center;background-size:contain}.link-block--word:after{background:url("https://rosguard.gov.ru/uploads/2020/02/download.png") no-repeat;background-position:center;background-size:contain}.link-block--pdf:before{background:url("https://rosguard.gov.ru/uploads/2020/02/pdf.png") no-repeat;background-position:center;background-size:contain}.link-block--pdf:after{background:url("https://rosguard.gov.ru/uploads/2020/02/pdf.png") no-repeat;background-position:center;background-size:contain}.link-block--normal a{padding:15px}.link-block--normal:after,.link-block--normal:before{padding:0}
+
+@media (max-width: 768px){
+    .container__n{
+        flex-direction: column;
+    }
+    .nvc__right{
+        width: 100%;
+    }
+    .nvc__left{
+        width: 100%;
+    }
+}
